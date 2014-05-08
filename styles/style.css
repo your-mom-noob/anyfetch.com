@@ -76,6 +76,16 @@ a {
 	border-color: #F98D33;
 }
 
+.thumbnail {
+	color: #fff;
+	background-color: inherit;
+	border-width: 0px;
+}
+
+.thumbnail .caption {
+	color: inherit;
+}
+
 .description {
 	margin-left: 60px;
 }
