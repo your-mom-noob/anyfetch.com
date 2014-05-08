@@ -1,0 +1,34 @@
+.content {
+	margin-top: 100px;
+}
+
+.list-group {
+	position: fixed;
+	min-width: 300px;
+}
+
+.project {
+	min-height: 300px;
+	margin-top: 70px;
+}
+
+.thumbnail {
+	margin-top : 50px;
+}
+
+.jumbotron h1, .jumbotron .h1 {
+	font-size: 40px;
+}
+
+.invisible-anchor {
+	position: relative;
+	top: -150px;
+}
+
+h2 {
+	text-align: center;
+}
+
+p {
+	font-weight: 200;
+}
