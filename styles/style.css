@@ -30,9 +30,9 @@ a {
 	text-align: center;
 }
 
-.navbar {
+/*.navbar {
 	min-height: 80px;
-}
+}*/
 
 .navbar-default {
 	background-color: #fff;
@@ -65,9 +65,16 @@ a {
 /* Button in navbar */
 .navbar-default .navbar-nav>li>.btn {
 	margin-left: 10px;
+	margin-top: 15px;
+	padding-top: 15px;
 	color: #777;
 	background-color: #fff;
 	border-color: #888;
+	height: 50px;
+}
+
+.navbar-collapse, .navbar-header {
+	margin-top: -15px;
 }
 
 .navbar-default .navbar-nav>li>.btn:hover {
@@ -95,7 +102,7 @@ a {
 	padding-bottom: 50px;
 	margin-top: 50px;
 	color: #f8f8f8;
-	background: url(../images/screen_linkedin_draft.jpg) no-repeat top center;
+	background: url(../images/screen_linkedin_draft.jpg) no-repeat top right;
 	background-size: cover;
 	text-align: center;
 }
@@ -106,6 +113,7 @@ a {
 	margin-top: 15%;
 	padding-bottom: 5%;
 	margin-bottom: 15%;
+	padding: 40px;
 	background-color: rgba(0,0,0,0.4);
 }
 
