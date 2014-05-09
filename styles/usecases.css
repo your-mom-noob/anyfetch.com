@@ -16,8 +16,18 @@
 	margin-top : 50px;
 }
 
+.jumbotron {
+	background-image: url(../images/header.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 .jumbotron h1, .jumbotron .h1 {
 	font-size: 40px;
+}
+
+.jumbotron h1, .jumbotron p {
+	color: #fff;
 }
 
 .invisible-anchor {
@@ -25,8 +35,21 @@
 	top: -150px;
 }
 
+a.list-group-item {
+	color: #fff;
+	font-weight: 300;
+	background-color: #16A9E2;
+}
+
+a.list-group-item:hover {
+	color: #fff;
+	background-color: #62C3EB;
+}
+
 h2 {
 	text-align: center;
+	color: #16A9E2;
+	margin-bottom: 20px;
 }
 
 p {
