@@ -7,3 +7,36 @@
 	color: #000;
 	height: 100%;
 }
+
+.content-column {
+	padding: 30px 50px 30px 50px;
+	text-align: center;
+}
+
+.column-right {
+	border-left: 2px #F8F8F8 solid;
+}
+
+.jumbotron {
+	background-image: url(../images/header.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.jumbotron h1, .jumbotron .h1 {
+	font-size: 40px;
+}
+
+.jumbotron h1, .jumbotron p {
+	color: #fff;
+}
+
+h2 {
+	text-align: center;
+	color: #16A9E2;
+	margin-bottom: 20px;
+}
+
+p {
+	font-weight: 200;
+}
