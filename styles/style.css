@@ -253,3 +253,9 @@ footer {
 p.copyright {
 	margin: 15px 0 0;
 }
+
+.img-responsive {
+	max-width: 350px;
+	display: block;
+	margin: auto;
+}
