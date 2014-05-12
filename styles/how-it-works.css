@@ -1,6 +1,4 @@
-.content {
-	margin-top: 100px;
-}
+
 
 .vr {
 	width: 2px;
@@ -10,25 +8,16 @@
 
 .content-column {
 	padding: 30px 50px 30px 50px;
-	text-align: center;
+	text-align: left;
+	margin: 50px 0px;
 }
 
 .column-right {
 	border-left: 2px #F8F8F8 solid;
 }
 
-.jumbotron {
-	background-image: url(../images/header.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-.jumbotron h1, .jumbotron .h1 {
-	font-size: 40px;
-}
-
-.jumbotron h1, .jumbotron p {
-	color: #fff;
+.header-img {
+	width: 100%;
 }
 
 h2 {

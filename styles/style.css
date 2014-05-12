@@ -245,6 +245,10 @@ a {
 	}	
 }
 
+.highlight {
+	font-weight: 800;
+}
+
 footer {
 	background-color: #f8f8f8;
 	padding: 50px 0;
@@ -256,6 +260,7 @@ p.copyright {
 
 .img-responsive {
 	max-width: 350px;
+	max-height: 300px;
 	display: block;
 	margin: auto;
 }
