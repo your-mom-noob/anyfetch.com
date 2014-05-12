@@ -13,13 +13,14 @@
 }
 
 .thumbnail {
-	margin-top : 50px;
+	margin-top : -50px;
 }
 
 .jumbotron {
 	background-image: url(../images/header.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	margin-bottom: 70px;
 }
 
 .jumbotron h1, .jumbotron .h1 {

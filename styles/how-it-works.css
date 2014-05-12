@@ -1,4 +1,6 @@
-
+.content {
+	margin-top: 100px;
+}
 
 .vr {
 	width: 2px;
@@ -7,13 +9,13 @@
 }
 
 .content-column {
-	padding: 30px 50px 30px 50px;
+	padding: 10px 50px 10px 50px;
 	text-align: left;
-	margin: 50px 0px;
+	margin: 30px 0px 50px 0px;
 }
 
 .column-right {
-	border-left: 2px #F8F8F8 solid;
+	border-left: 2px #F5F2F2 solid;
 }
 
 .header-img {
