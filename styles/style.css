@@ -102,6 +102,16 @@ a {
 	color: inherit;
 }
 
+.thumbnail .use-case {
+	margin-top : -50px;
+}
+
+.thumbnail-developers {
+	padding: 30px 50px 0px 50px;
+	text-align: center;
+	margin: 30px 0px 0px 0px;
+}
+
 .description {
 	margin-left: 60px;
 }
@@ -294,10 +304,6 @@ p {
 	margin-top: 70px;
 }
 
-.thumbnail {
-	margin-top : -50px;
-}
-
 .jumbotron {
 	background-image: url(../images/header.jpg);
 	background-repeat: no-repeat;
@@ -341,12 +347,6 @@ a.list-group-item:hover {
 
 .header-img {
 	width: 100%;
-}
-
-.thumbnail-developers {
-	padding: 30px 50px 0px 50px;
-	text-align: center;
-	margin: 30px 0px 0px 0px;
 }
 
 .content-column-developers {
