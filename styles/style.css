@@ -8,6 +8,10 @@ body, h1, h2, h3, h4, h5, h6 {
 	font-weight: 700;
 }
 
+.content {
+	margin-top: 100px;
+}
+
 .lead {
 	font-size: 16px;
 }
@@ -263,4 +267,88 @@ p.copyright {
 	max-height: 300px;
 	display: block;
 	margin: auto;
+}
+
+h2 {
+	text-align: center;
+	color: #16A9E2;
+	margin-bottom: 20px;
+}
+
+p {
+	font-weight: 200;
+}
+
+.list-group {
+	position: fixed;
+	min-width: 300px;
+}
+
+.project {
+	min-height: 300px;
+	margin-top: 70px;
+}
+
+.thumbnail {
+	margin-top : -50px;
+}
+
+.jumbotron {
+	background-image: url(../images/header.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 70px;
+}
+
+.jumbotron h1, .jumbotron .h1 {
+	font-size: 40px;
+}
+
+.jumbotron h1, .jumbotron p {
+	color: #fff;
+}
+
+.invisible-anchor {
+	position: relative;
+	top: -150px;
+}
+
+a.list-group-item {
+	color: #fff;
+	font-weight: 300;
+	background-color: #16A9E2;
+}
+
+a.list-group-item:hover {
+	color: #fff;
+	background-color: #62C3EB;
+}
+
+.content-column {
+	padding: 10px 50px 10px 50px;
+	text-align: left;
+	margin: 30px 0px 50px 0px;
+}
+
+.column-right {
+	border-left: 2px #F5F2F2 solid;
+}
+
+.header-img {
+	width: 100%;
+}
+
+.thumbnail-developers {
+	padding: 30px 50px 0px 50px;
+	text-align: center;
+	margin: 30px 0px 0px 0px;
+}
+
+.content-column-developers {
+	padding: 0px 50px 0px 50px;
+	text-align: left;
+}
+
+.row-text {
+	margin-bottom: 50px;
 }
