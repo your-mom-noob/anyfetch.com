@@ -376,3 +376,11 @@ a.list-group-item:hover {
 	padding: 20px;
 	text-align: center;
 }
+
+.browser {
+	text-align: center;
+}
+
+.browser > img {
+	max-width: 1000px;
+}
