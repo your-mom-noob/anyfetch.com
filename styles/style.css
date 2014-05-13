@@ -156,6 +156,10 @@ a {
 	height: 80px;
 }
 
+.biography {
+	padding-left: 70px;
+}
+
 @media (max-width: 767px) {
 	.intro-message {
 		padding-bottom: 15%;
@@ -178,6 +182,10 @@ a {
 
 	.intro-divider {
 		width: 100%;
+	}
+
+	.biography {
+		padding-left: 0px;
 	}
 }
 
@@ -241,6 +249,10 @@ a {
 		float: left;
 		margin-top: 15px;
 	}	
+
+	.biography {
+		padding-left: 0px;
+	}
 }
 
 @media (max-width: 767px) {
@@ -279,6 +291,7 @@ p.copyright {
 	max-height: 300px;
 	display: block;
 	margin: auto;
+	margin-top: 30px;
 }
 
 h2 {
@@ -354,16 +367,12 @@ a.list-group-item:hover {
 	margin-bottom: 50px;
 }
 
-.biography {
-	text-align: center;
-}
-
 .portrait {
 	width: 60%;
 	border-radius: 50%;
-	margin-left: 20%
 }
 
 .thumbnail-portrait {
 	padding: 20px;
+	text-align: center;
 }
