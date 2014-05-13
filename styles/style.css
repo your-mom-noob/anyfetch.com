@@ -16,6 +16,11 @@ body, h1, h2, h3, h4, h5, h6 {
 	font-size: 16px;
 }
 
+hr {
+	width: 60%;
+	height: 3px;
+}
+
 li {
 	font-weight: 300;
 }
@@ -351,4 +356,18 @@ a.list-group-item:hover {
 
 .row-text {
 	margin-bottom: 50px;
+}
+
+.biography {
+	text-align: center;
+}
+
+.portrait {
+	width: 60%;
+	border-radius: 50%;
+	margin-left: 20%
+}
+
+.thumbnail-portrait {
+	padding: 20px;
 }
