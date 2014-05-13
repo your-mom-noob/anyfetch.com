@@ -121,19 +121,16 @@ a {
 	padding-bottom: 50px;
 	margin-top: 50px;
 	color: #f8f8f8;
-	background: url(../images/screen_linkedin_draft.jpg) no-repeat top right;
-	background-size: cover;
+	background: url(../images/heron.png) no-repeat bottom right, url(../images/header.jpg) no-repeat center center;
+	background-size: 20%, cover;
 	text-align: center;
+	height: 400px;
 }
 
 .intro-message {
 	position: relative;
 	padding-top: 5%;
-	margin-top: 15%;
-	padding-bottom: 5%;
-	margin-bottom: 15%;
-	padding: 40px;
-	background-color: rgba(0,0,0,0.4);
+	text-align: left;
 }
 
 .intro-message > h1 {
@@ -305,9 +302,8 @@ p {
 }
 
 .jumbotron {
-	background-image: url(../images/header.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
+	background: url(../images/heron.png) no-repeat bottom right, url(../images/header.jpg) no-repeat center center;
+	background-size: 20%, cover;
 	margin-bottom: 25px;
 }
 
