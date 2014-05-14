@@ -35,8 +35,11 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
         <ul class="nav navbar-nav">
-          <li><a href="use-cases.html" class="navbar-title">Use cases</a>
-          </li>
+        {% if page.path == "use-cases.html" %}
+          <li class="active"><a href="use-cases.html" class="navbar-title">Use cases</a></li>
+        {% else %}
+          <li><a href="use-cases.html" class="navbar-title">Use cases</a></li>
+        {% endif %}
           <li><a href="how-it-works.html" class="navbar-title">How it works</a>
           </li>
           <li><a href="developers.html" class="navbar-title">Developers</a>
