@@ -126,7 +126,7 @@ a {
 	padding-bottom: 50px;
 	margin-top: 50px;
 	color: #f8f8f8;
-	background: url(../images/heron.png) no-repeat bottom right, url(../images/banner.svg) no-repeat center center;
+	background: url(../images/anyfetch_icon_raw.svg) no-repeat bottom right, url(../images/banner.svg) no-repeat center center;
 	background-size: 20%, cover;
 	text-align: center;
 	height: 400px;
@@ -320,7 +320,7 @@ p {
 }
 
 .jumbotron {
-	background: url(../images/heron.png) no-repeat bottom right, url(../images/header.jpg) no-repeat center center;
+	background: url(../images/anyfetch_icon_raw.svg) no-repeat bottom right, url(../images/banner.svg) no-repeat center center;
 	background-size: 20%, cover;
 	margin-bottom: 25px;
 }
