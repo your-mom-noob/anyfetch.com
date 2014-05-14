@@ -253,7 +253,7 @@ a {
 	ul.banner-social-buttons {
 		float: left;
 		margin-top: 15px;
-	}	
+	}
 
 	.biography {
 		padding-left: 0px;
@@ -275,7 +275,7 @@ a {
 
 	ul.banner-social-buttons > li:last-child {
 		margin-bottom: 0;
-	}	
+	}
 }
 
 .highlight {
@@ -326,7 +326,7 @@ p {
 }
 
 .jumbotron.team {
-	background:	url(../images/team.png) no-repeat center top;
+	background:	url(../images/team.jpg) no-repeat center top;
 	background-size: cover;
 	height: 200px;
 	margin-top: 100px;
