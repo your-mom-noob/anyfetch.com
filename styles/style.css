@@ -382,5 +382,6 @@ a.list-group-item:hover {
 }
 
 .browser > img {
+	width: 80%;
 	max-width: 1000px;
 }
