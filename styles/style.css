@@ -21,6 +21,11 @@ hr {
 	height: 3px;
 }
 
+h1.white {
+	color: #fff;
+	text-align: center;
+}
+
 li {
 	font-weight: 300;
 }
@@ -140,7 +145,7 @@ a {
 }
 
 .intro-divider {
-	width: 500px;
+	width: 400px;
 	margin-left: 0px;
 }
 
@@ -379,9 +384,14 @@ a.list-group-item:hover {
 
 .browser {
 	text-align: center;
+	padding-top: 50px;
 }
 
 .browser > img {
 	width: 80%;
 	max-width: 1000px;
+}
+
+.inline-button {
+	margin-left: 20px;
 }
