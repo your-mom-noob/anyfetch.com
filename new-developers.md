@@ -16,7 +16,7 @@ $ curl -XPOST \
 -H "Authorization: token ${TOKEN}" \
 -H "Content-Type:application/json" \
 http://api.anyfetch.com/documents \
--d '{"identifier": "hello-world", "no_hydration": true, "document_type": "file", "metadatas": {"path": "/home/anyfetch/sample.txt", "title": "anyFetch sample file"}}'
+-d '{"identifier": "hello-world", "document_type": "file", "metadatas": {"title": "anyFetch sample file"}}'
 ```
 
 And send the document:
