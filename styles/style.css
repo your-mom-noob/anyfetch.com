@@ -8,6 +8,10 @@ body, h1, h2, h3, h4, h5, h6 {
 	font-weight: 700;
 }
 
+body {
+	text-align: justify;
+}
+
 .content {
 	margin-top: 100px;
 }
@@ -358,7 +362,6 @@ a.list-group-item:hover {
 
 .content-column {
 	padding: 10px 50px 10px 50px;
-	text-align: left;
 	margin: 30px 0px 50px 0px;
 }
 
@@ -372,7 +375,7 @@ a.list-group-item:hover {
 
 .content-column-developers {
 	padding: 0px 50px 0px 50px;
-	text-align: left;
+	text-align: justify;
 }
 
 .row-text {
@@ -426,4 +429,8 @@ a.list-group-item:hover {
 	font-weight: 500;
 	border-bottom: 2px solid;
 
+}
+
+.text-centered {
+	text-align: center;
 }
