@@ -392,6 +392,7 @@ a.list-group-item:hover {
 .browser {
 	text-align: center;
 	padding-top: 50px;
+	margin-right: 0px;
 }
 
 .browser > img {
