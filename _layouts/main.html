@@ -39,16 +39,27 @@
         {% else %}
           <li><a href="use-cases.html" class="navbar-title">Use cases</a></li>
         {% endif %}
-          <li><a href="how-it-works.html" class="navbar-title">How it works</a>
-          </li>
-          <li><a href="developers.html" class="navbar-title">Developers</a>
-          </li>
-          <li><a href="about-us.html" class="navbar-title">About us</a>
-          </li>
-          <li><a href="contact.html" class="navbar-title">Contact</a>
-          </li>
-          <li><a href="http://app.anyfetch.com" class="btn btn-default btn-lg"><span class="network-name">Login</span></a>
-          </li>
+        {% if page.path == "how-it-works.html" %}
+          <li class="active"><a href="how-it-works.html" class="navbar-title">How it works</a></li>
+        {% else %}
+          <li><a href="how-it-works.html" class="navbar-title">How it works</a></li>
+        {% endif %}
+        {% if page.path == "developers.html" %}
+          <li class="active"><a href="developers.html" class="navbar-title">Developers</a></li>
+        {% else %}
+          <li><a href="developers.html" class="navbar-title">Developers</a></li>
+        {% endif %}
+        {% if page.path == "about-us.html" %}
+          <li class="active"><a href="about-us.html" class="navbar-title">About us</a></li>
+        {% else %}
+          <li><a href="about-us.html" class="navbar-title">About us</a></li>
+        {% endif %}
+        {% if page.path == "contact.html" %}
+          <li class="active"><a href="contact.html" class="navbar-title">Contact</a></li>
+        {% else %}
+          <li><a href="contact.html" class="navbar-title">Contact</a></li>
+        {% endif %}
+          <li><a href="http://app.anyfetch.com" class="btn btn-default btn-lg"><span class="network-name">Login</span></a></li>
         </ul>
 
       </div>
