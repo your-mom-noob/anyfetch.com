@@ -411,3 +411,18 @@ a.list-group-item:hover {
 .contact {
 	text-align: center;
 }
+
+.navbar-default .navbar-nav>.active>a {
+	color: #00A8E5;
+	background-color: #fff;
+	font-weight: 500;
+	border-bottom: 2px solid;
+}
+
+.navbar-default .navbar-nav>.active>a:hover {
+	color: #777;
+	background-color: #fff;
+	font-weight: 500;
+	border-bottom: 2px solid;
+
+}
