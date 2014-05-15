@@ -112,7 +112,11 @@ a {
 }
 
 .thumbnail .use-case {
-	margin-top : -50px;
+	text-align: center;
+}
+
+.use-case > img {
+	max-width: 200px;
 }
 
 .thumbnail-developers {
