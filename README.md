@@ -5,6 +5,7 @@ Built with Jekyll,
 ## Setup
 ```sh
 gem install jekyll
+gem install jekyll-sitemap
 ```
 
 ## Running website
