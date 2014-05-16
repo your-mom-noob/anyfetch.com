@@ -111,11 +111,12 @@ a {
 	color: inherit;
 }
 
-.thumbnail .use-case {
+.use-case-thumbnail {
 	text-align: center;
+	padding-top: 50px;
 }
 
-.use-case > img {
+.use-case-thumbnail > img {
 	max-width: 200px;
 }
 
