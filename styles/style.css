@@ -454,3 +454,7 @@ a.list-group-item:hover {
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
+
+.profile-link {
+	color: #000;
+}
