@@ -1,3 +1,12 @@
+var topFix = function() {
+	console.log($('#top').height());
+	$('#frames').css({top: $('#top').height()});
+}
+
 $(function() {
-	console.log('Let rock.');
+	topFix();
+});
+
+$(window).resize(function() {
+	topFix();
 });
