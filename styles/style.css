@@ -205,6 +205,10 @@ a {
 	.biography {
 		padding-left: 0px;
 	}
+
+	.navbar-ex1-collapse {
+		margin-top: 14px;
+	}
 }
 
 .network-name {
@@ -423,7 +427,6 @@ a.list-group-item:hover {
 
 .source-icon {
 	margin: 20px 5px 0px 5px;
-	height: 40px;
 	max-width: 100%;
 }
 
