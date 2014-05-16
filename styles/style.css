@@ -300,7 +300,7 @@ p.copyright {
 }
 
 .img-responsive {
-	max-width: 350px;
+	max-width: 150px;
 	max-height: 300px;
 	display: block;
 	margin: auto;
