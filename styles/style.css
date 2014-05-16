@@ -142,7 +142,7 @@ a {
 	background: url(../images/anyfetch_icon_raw.svg) no-repeat bottom right, url(../images/banner.svg) no-repeat center center;
 	background-size: 20%, cover;
 	text-align: center;
-	height: 400px;
+	height: 470px;
 }
 
 .intro-message {
@@ -444,4 +444,13 @@ a.list-group-item:hover {
 
 .text-centered {
 	text-align: center;
+}
+
+.get-started-header {
+	margin: 50px 0px 0px 0px;
+}
+
+.margin-bottom {
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
