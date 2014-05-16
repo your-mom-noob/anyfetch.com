@@ -38,10 +38,14 @@ a {
 	color: #349CC5;
 }
 
-.btn-lg {
+.btn {
 	background-color: #F98D33;
 	color: #fff;
 	border-color: #fff;
+}
+
+.btn-form {
+	border-color: #F98D33;
 }
 
 .center {
