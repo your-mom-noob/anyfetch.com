@@ -428,6 +428,7 @@ a.list-group-item:hover {
 .source-icon {
 	margin: 20px 5px 0px 5px;
 	max-width: 100%;
+	max-height: 40px;
 }
 
 .contact {
