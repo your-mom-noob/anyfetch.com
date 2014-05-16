@@ -2,16 +2,16 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="">
-  <meta name="author" content="">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
 
-  <title>{{ page.title }}</title>
+	<title>{{ page.title }}</title>
 
-  <link rel="stylesheet" href="styles/bootstrap.min.css">
-  <link rel="stylesheet" href="styles/style.css">
-  <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="styles/bootstrap.min.css">
+	<link rel="stylesheet" href="styles/style.css">
+	<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
   <!--[if lt IE 9]>
   <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -20,106 +20,106 @@
 
 <body>
 
-  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="./"><img src="images/anyfetch_icon.svg"/> Any<b>Fetch<b></a>
-      </div>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="./"><img src="images/anyfetch_icon.svg"/> Any<b>Fetch<b></a>
+			</div>
 
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
-        <ul class="nav navbar-nav">
-        {% if page.path == "index.html" %}
-          <li class="active"><a href="./" class="navbar-title">Home</a></li>
-        {% else %}
-          <li><a href="./" class="navbar-title">Home</a></li>
-        {% endif %}
-        {% if page.path == "use-cases.html" %}
-          <li class="active"><a href="use-cases.html" class="navbar-title">Use cases</a></li>
-        {% else %}
-          <li><a href="use-cases.html" class="navbar-title">Use cases</a></li>
-        {% endif %}
-        {% if page.path == "how-it-works.html" %}
-          <li class="active"><a href="how-it-works.html" class="navbar-title">How it works</a></li>
-        {% else %}
-          <li><a href="how-it-works.html" class="navbar-title">How it works</a></li>
-        {% endif %}
-        {% if page.path == "it.html" %}
-          <li class="active"><a href="entreprise.html" class="navbar-title">Entreprise</a></li>
-        {% else %}
-          <li><a href="entreprise.html" class="navbar-title">Entreprise</a></li>
-        {% endif %}
-          <li><a href="http://developers.anyfetch.com/" class="navbar-title" target="_blank">Developers</a></li>
-        {% if page.path == "about-us.html" %}
-          <li class="active"><a href="about-us.html" class="navbar-title">About us</a></li>
-        {% else %}
-          <li><a href="about-us.html" class="navbar-title">About us</a></li>
-        {% endif %}
-          <li><a href="get-started.html" class="btn btn-default btn-lg"><span class="network-name">Get started</span></a></li>
-        </ul>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
+				<ul class="nav navbar-nav">
+					{% if page.path == "index.html" %}
+					<li class="active"><a href="./" class="navbar-title">Home</a></li>
+					{% else %}
+					<li><a href="./" class="navbar-title">Home</a></li>
+					{% endif %}
+					{% if page.path == "use-cases.html" %}
+					<li class="active"><a href="use-cases.html" class="navbar-title">Use cases</a></li>
+					{% else %}
+					<li><a href="use-cases.html" class="navbar-title">Use cases</a></li>
+					{% endif %}
+					{% if page.path == "how-it-works.html" %}
+					<li class="active"><a href="how-it-works.html" class="navbar-title">How it works</a></li>
+					{% else %}
+					<li><a href="how-it-works.html" class="navbar-title">How it works</a></li>
+					{% endif %}
+					{% if page.path == "enterprise.html" %}
+					<li class="active"><a href="enterprise.html" class="navbar-title">Enterprise</a></li>
+					{% else %}
+					<li><a href="enterprise.html" class="navbar-title">Enterprise</a></li>
+					{% endif %}
+					<li><a href="http://developers.anyfetch.com/" class="navbar-title" target="_blank">Developers</a></li>
+					{% if page.path == "about-us.html" %}
+					<li class="active"><a href="about-us.html" class="navbar-title">About us</a></li>
+					{% else %}
+					<li><a href="about-us.html" class="navbar-title">About us</a></li>
+					{% endif %}
+					<li><a href="get-started.html" class="btn btn-default btn-lg"><span class="network-name">Get started</span></a></li>
+				</ul>
 
-      </div>
-      <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container -->
-  </nav>
+			</div>
+			<!-- /.navbar-collapse -->
+		</div>
+		<!-- /.container -->
+	</nav>
 
-  {{ content }}
+	{{ content }}
 
-  <footer class="footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-12">
-        <div class="col-sm-4">
-          <h5>Developers</h5>
-          <ul class="list-unstyled">
-            <li><a href="http://developers.anyfetch.com/" target="_blank">Docs</a></li>
-            <li><a href="http://developers.anyfetch.com/endpoints/" target="_blank">Endpoints</a></li>
-            <li><a href="http://developers.anyfetch.com/guides/" target="_blank">Guides</a></li>
-          </ul>
-        </div>
-        <div class="col-sm-4">
-          <h5>Solution</h5>
-          <ul class="list-unstyled">
-            <li><a href="/">AnyFetch</a></li>
-            <li><a href="/use-cases.html">Use Cases</a></li>
-            <li><a href="/how-it-works.html">How it works</a></li>
-          </ul>
-        </div>
-        <div class="col-sm-4">
-          <h5>Company</h5>
-          <ul class="list-unstyled">
-            <li><a href="/about-us.html">About Us</a></li>
-            <li><a href="/about-us.html#contact">Contact</a></li>
-          </ul>
-        </div>
-        <div class="col-sm-12 text-center">
-          <p class="copyright text-muted small">&copy; AnyFetch 2014. All Rights Reserved</p>
-        </div>
-      </div>
-    </div>
-  </footer>
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-4 col-sm-2 col-sm-offset-3">
+					<h5>Developers</h5>
+					<ul class="list-unstyled">
+						<li><a href="http://developers.anyfetch.com/" target="_blank">Docs</a></li>
+						<li><a href="http://developers.anyfetch.com/endpoints/" target="_blank">Endpoints</a></li>
+						<li><a href="http://developers.anyfetch.com/guides/" target="_blank">Guides</a></li>
+					</ul>
+				</div>
+				<div class="col-xs-4 col-sm-2">
+					<h5>Solution</h5>
+					<ul class="list-unstyled">
+						<li><a href="/">AnyFetch</a></li>
+						<li><a href="/use-cases.html">Use Cases</a></li>
+						<li><a href="/how-it-works.html">How it works</a></li>
+					</ul>
+				</div>
+				<div class="col-xs-4col-sm-2">
+					<h5>Company</h5>
+					<ul class="list-unstyled">
+						<li><a href="/about-us.html">About Us</a></li>
+						<li><a href="/about-us.html#contact">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12 text-center">
+					<p class="copyright text-muted small">&copy; AnyFetch 2014. All Rights Reserved</p>
+				</div>
+			</div>
+		</footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="scripts/bootstrap.min.js"></script>
     <script src="scripts/tools.js"></script>
     <script src="scripts/window.js"></script>
 
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-      ga('create', 'UA-35597266-3', 'anyfetch.com');
-      ga('send', 'pageview');
-    </script>
-</body>
+			ga('create', 'UA-35597266-3', 'anyfetch.com');
+			ga('send', 'pageview');
+		</script>
+	</body>
 
-</html>
+	</html>
