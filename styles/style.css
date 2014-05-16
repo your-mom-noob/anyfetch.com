@@ -389,6 +389,7 @@ a.list-group-item:hover {
 
 .portrait {
 	width: 60%;
+	max-width: 150px;
 	border-radius: 50%;
 }
 
