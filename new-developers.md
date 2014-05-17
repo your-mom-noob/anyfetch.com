@@ -11,29 +11,16 @@ But sometime, you'll want to send your own documents. This is dead simple!
 
 Create the document first:
 
-```sh
-$ curl -XPOST \
--H "Authorization: token ${TOKEN}" \
--H "Content-Type:application/json" \
-http://api.anyfetch.com/documents \
--d '{"identifier": "hello-world", "document_type": "file", "metadatas": {"title": "anyFetch sample file"}}'
-```
+<script src="https://gist.github.com/Neamar/75546fa5013209ced625.js"></script>
 
-And send the document:
+And send the file:
 
-```sh
-$ curl -XPOST \
--H "Authorization: token ${TOKEN}" \
--F "file=@sample.pdf" \
-http://api.anyfetch.com/documents/identifier/hello-world/file
-```
+<script src="https://gist.github.com/Neamar/0ea62c6e3b2bd99f1b5b.js"></script>
 
 ## Search
 
-```sh
-$ curl -H "Authorization: token ${TOKEN}" \
-http://api.anyfetch.com/documents?search=anyfetch
-```
+<script src="https://gist.github.com/Neamar/f1481b3a150507f6a686.js"></script>
+
 
 [nice image]
 
