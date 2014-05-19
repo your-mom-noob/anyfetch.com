@@ -481,6 +481,7 @@ a.list-group-item:hover {
 --------------------------------------------------------------- */
 
 .window {
+	margin-top: 20px;
 	position: relative;
 	box-shadow: 0px 0px 10px #777;
 }
@@ -492,8 +493,6 @@ a.list-group-item:hover {
 .window .frames {
 	background: white;
 	width: 100%;
-	position: absolute;
-	bottom: 0;
 	overflow: hidden;
 }
 
