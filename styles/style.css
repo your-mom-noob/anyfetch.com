@@ -471,6 +471,11 @@ a.list-group-item:hover {
 	color: #000;
 }
 
+.alert {
+	/*visibility: hidden;*/
+	display: none;
+}
+
 /* ---------------------------------------------------------------
 						Landing - Window animation
 --------------------------------------------------------------- */
