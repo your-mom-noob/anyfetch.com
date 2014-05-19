@@ -1,74 +1,17 @@
+---
+title: Welcome to anyFetch
+layout: main
+---
 
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="author" content="">
-
-	<title>Welcome to anyFetch</title>
-
-	<link rel="stylesheet" href="styles/bootstrap.min.css">
-	<link rel="stylesheet" href="styles/style.css">
-	<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-
-  <!--[if lt IE 9]>
-  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
-</head>
-
-<body>
-
-	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-		<div class="container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="./"><img src="images/anyfetch_icon.svg"/> Any<b>Fetch<b></a>
-			</div>
-
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
-				<ul class="nav navbar-nav">
-					
-					<li class="active"><a href="./" class="navbar-title">Home</a></li>
-					
-					
-					<li><a href="use-cases.html" class="navbar-title">Use cases</a></li>
-					
-					
-					<li><a href="how-it-works.html" class="navbar-title">How it works</a></li>
-					
-					
-					<li><a href="enterprise.html" class="navbar-title">Enterprise</a></li>
-					
-					<li><a href="http://developers.anyfetch.com/" class="navbar-title" target="_blank">Developers</a></li>
-					
-					<li><a href="about-us.html" class="navbar-title">About us</a></li>
-					
-					<li><a href="get-started.html" class="btn btn-default btn-lg"><span class="network-name">Get started</span></a></li>
-				</ul>
-
-			</div>
-			<!-- /.navbar-collapse -->
-		</div>
-		<!-- /.container -->
-	</nav>
-
-	<div class="intro-header">
+<div class="intro-header">
 
 	<div class="container">
 
 		<div class="row">
 			<div class="col-lg-12">
 				<div class="intro-message">
-					<h1>Search, properly done.</h1>
+					<h1>Search, properly done</h1>
 					<img class="source-icon" src="images/banner_icons.png">
 					<h3>A complete API built for developers</h3>
 					<hr class="intro-divider">
@@ -93,7 +36,7 @@
 				<img src="images/connections.svg">
 				<div class="caption">
 					<h2>Connect any data source</h2>
-					<p class="lead">Whether local or in the cloud, we have already built open-source connectors to 20+ services. It only takes a few minutes to create your own!</p>
+					<p class="lead">Whether local or in the cloud, we provide open-source connectors to 20+ services. It only takes a few minutes to create your own!</p>
 				</div>
 			</div>
 		</div>
@@ -117,16 +60,30 @@
 				</div>
 			</div>
 		</div>
+	</div>
 
+	<div class="container">
 		<div class="row">
-			<div class="col-md-9">
-				<img width="100%" src="../images/multi-browser.jpg" />
+			<div class="col-md-8">
+				<div class="window">
+					<img class="top" id="top" src="../images/multi-browser-top.jpg" />
+					<div class="frames" id="frames">
+						<div class="frame">
+							<img width="100%" src="../images/multi-browser-frame1.jpg" />
+						</div>
+						<div class="frame">
+							<img width="100%" src="../images/multi-browser-frame2.jpg" />
+						</div>
+						<div class="frame">
+							<img width="100%" src="../images/multi-browser-frame3.jpg" />
+						</div>
+					</div>
+					<img width="100%" src="../images/multi-browser-frame.jpg" />
+				</div>
 			</div>
-			<div class="col-md-3 text-left">
+			<div class="col-md-4 text-left">
 				<br/>
-				<br/>
-				<br/>
-				<h1 class="text-left">Context matters.</h1>
+				<h1 class="text-left">Context is everywhere.</h1>
 				<hr/>
 				<h3 style="color: #666">Start developing your app
 				on top of AnyFetch.</h3>
@@ -154,55 +111,3 @@
 
 
 	</div>
-
-
-	<footer class="footer">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-4 col-sm-2 col-sm-offset-3">
-					<h5>Developers</h5>
-					<ul class="list-unstyled">
-						<li><a href="http://developers.anyfetch.com/" target="_blank">Docs</a></li>
-						<li><a href="http://developers.anyfetch.com/endpoints/" target="_blank">Endpoints</a></li>
-						<li><a href="http://developers.anyfetch.com/guides/" target="_blank">Guides</a></li>
-					</ul>
-				</div>
-				<div class="col-xs-4 col-sm-2">
-					<h5>Solution</h5>
-					<ul class="list-unstyled">
-						<li><a href="/">AnyFetch</a></li>
-						<li><a href="/use-cases.html">Use Cases</a></li>
-						<li><a href="/how-it-works.html">How it works</a></li>
-					</ul>
-				</div>
-				<div class="col-xs-4col-sm-2">
-					<h5>Company</h5>
-					<ul class="list-unstyled">
-						<li><a href="/about-us.html">About Us</a></li>
-						<li><a href="/about-us.html#contact">Contact</a></li>
-					</ul>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-12 text-center">
-					<p class="copyright text-muted small">&copy; AnyFetch 2014. All Rights Reserved</p>
-				</div>
-			</div>
-		</footer>
-
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-		<script src="scripts/bootstrap.min.js"></script>
-		<script src="scripts/tools.js"></script>
-
-		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-			ga('create', 'UA-35597266-3', 'anyfetch.com');
-			ga('send', 'pageview');
-		</script>
-	</body>
-
-	</html>
