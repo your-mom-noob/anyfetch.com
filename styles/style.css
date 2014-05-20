@@ -149,6 +149,19 @@ a {
 	height: 470px;
 }
 
+.intro-header.min {
+	height: 200px;
+	padding-top: 0px;
+	background-size: 10%, cover;
+	text-align: left;
+}
+
+.intro-header.min>div>div>div>div>h2 {
+	text-align: left;
+	color: #fff;
+	font-weight: 300;
+}
+
 .intro-message {
 	position: relative;
 	padding-top: 5%;
