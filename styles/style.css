@@ -48,6 +48,12 @@ a {
 	border-color: #fff;
 }
 
+.btn:hover {
+	background-color: #FCAD6C;
+	color: #fff;
+	border-color: #fff;
+}
+
 .btn-form {
 	border-color: #F98D33;
 }
