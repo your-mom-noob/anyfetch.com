@@ -1,7 +1,4 @@
 h1 {
-	position: relative;
-	top: 40px;
-	margin-top: -25px;
 }
 
 .bs-example {
@@ -55,4 +52,13 @@ h1 {
 .action-button {
 	margin-top: 20px;
 	float: right;
+}
+
+.header {
+	position: relative;
+	top: 25px;
+}
+
+.search-bar {
+	margin-right: 300px;
 }
