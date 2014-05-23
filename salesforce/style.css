@@ -1,0 +1,58 @@
+h1 {
+	position: relative;
+	top: 40px;
+	margin-top: -25px;
+}
+
+.bs-example {
+	max-width: 1100px;
+	min-width: 550px;
+	height: 470px;
+	border: 1px solid #999;
+	border-radius: 5px;
+	margin: 200px;
+	padding: 30px;
+	padding-top: 0px;
+}
+
+
+.nav-tabs>li {
+	float: right;
+}
+
+.tab-pane {
+	margin-top: 30px;
+}
+
+.tab-content {
+	height: 340px;
+	overflow: scroll;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #eee;
+}
+
+.tab-pane>p {
+	margin-top: -20px;
+}
+
+.fa-right {
+	float: right;
+}
+
+.panel-title {
+	margin-top: 0;
+	margin-bottom: 0;
+	color: inherit;
+	font-weight: 300;
+	font-size: 14px;
+}
+
+.panel-title>a:hover {
+	text-decoration: none;
+	color: #999;
+}
+
+.action-button {
+	margin-top: 20px;
+	float: right;
+}
