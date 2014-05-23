@@ -15,8 +15,8 @@
 
 		<!-- tabs left -->
 		<div class="tabbable tabs-left">
-			<ul class="nav nav-tabs">
-				<li class="active"><a href="#all-any" data-toggle="tab"><span class="glyphicon glyphicon-user"></span></a></li>
+			<ul class="nav nav-tabs" id="myTab">
+				<li><a href="#all-any" data-toggle="tab"><span class="glyphicon glyphicon-user"></span></a></li>
 				<li><a href="#favorites-any" data-toggle="tab"><span class="glyphicon glyphicon-star"></span></a></li>
 				<li><a href="#providers" data-toggle="tab"><span class="glyphicon glyphicon-link"></span></a></li>
 				<li><a href="#search" data-toggle="tab"><span class="glyphicon glyphicon-search"></span></a></li>
@@ -325,5 +325,9 @@
 	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+	<script type="text/javascript">
+		$('#myTab a[href="#all-any"]').tab('show') // Select tab by name
+	</script>
 </body>
 </html>
