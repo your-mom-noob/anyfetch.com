@@ -50,8 +50,9 @@ h1 {
 }
 
 .action-button {
-	margin-top: 20px;
 	float: right;
+	position: relative;
+	top: -75px;
 }
 
 .header {
