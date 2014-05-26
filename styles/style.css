@@ -515,8 +515,9 @@ a.list-group-item:hover {
 						Landing - Window animation
 --------------------------------------------------------------- */
 
+/* Window */
 .window {
-	margin-top: 20px;
+	margin: 20px 60px 0 0;
 	position: relative;
 	box-shadow: 0px 0px 3px #777;
 }
@@ -525,29 +526,40 @@ a.list-group-item:hover {
 	width: 100%;
 }
 
-.window .frames {
+/* Smartphone */
+
+.smartphone {
+	position: absolute;
+	bottom: 0;
+	right: 0px;
+	height: 250px;
+}
+
+/* Animations */
+
+.frames {
 	background: white;
 	width: 100%;
 	overflow: hidden;
 }
 
-.window .frames .frame {
+.frames .frame {
 	position: absolute;
 	left: 0;
 	top: 0;
 }
 
-.window .frames .frame:nth-child(1) {
+.frames .frame:nth-child(1) {
 	-webkit-animation: first 8s infinite;
 	-moz-animation: first 8s infinite;
 }
 
-.window .frames .frame:nth-child(2) {
+.frames .frame:nth-child(2) {
 	-webkit-animation: second 8s infinite;
 	-moz-animation: second 8s infinite;
 }
 
-.window .frames .frame:nth-child(3) {
+.frames .frame:nth-child(3) {
 	-webkit-animation: third 8s infinite;
 	-moz-animation: third 8s infinite;
 }
