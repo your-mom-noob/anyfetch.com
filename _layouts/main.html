@@ -18,15 +18,22 @@
   <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
 
-	<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
 
-		ga('create', 'UA-35597266-3', 'anyfetch.com');
-		ga('send', 'pageview');
-	</script>
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-35597266-3', 'anyfetch.com');
+	ga('send', 'pageview');
+</script>
 
 </head>
 
@@ -79,80 +86,78 @@
 					{% endif %}
 					{% if page.path == "about-us.html" or page.path == "enterprise.html" or page.path == "developers.html" %}
 					<li class="visible-md dropdown active">
-					{% else %}
-					<li class="visible-md dropdown">
-					{% endif %}
-			          <a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
-			          <ul class="dropdown-menu">
-			            <li><a href="/enterprise.html">Enterprise</a></li>
-			            <li><a href="/developers.html">Developers</a></li>
-			            <li><a href="/about-us.html">About us</a></li>
-			          </ul>
-			        </li>
-					{% if page.path == "about-us.html" or page.path == "enterprise.html" or page.path == "developers.html" or page.path == "how-it-works.html" %}
-					<li class="visible-sm dropdown active">
-					{% else %}
-					<li class="visible-sm dropdown">
-					{% endif %}
-			          <a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
-			          <ul class="dropdown-menu">
-			            <li><a href="/how-it-works.html">How it works</a></li>
-			            <li><a href="/enterprise.html">Enterprise</a></li>
-			            <li><a href="/developers.html">Developers</a></li>
-			            <li><a href="/about-us.html">About us</a></li>
-			          </ul>
-			        </li>
-					<li><a href="get-started.html" class="btn btn-default btn-lg"><span class="network-name">Get started</span></a></li>
-				</ul>
-
+						{% else %}
+						<li class="visible-md dropdown">
+							{% endif %}
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="/enterprise.html">Enterprise</a></li>
+								<li><a href="/developers.html">Developers</a></li>
+								<li><a href="/about-us.html">About us</a></li>
+							</ul>
+						</li>
+						{% if page.path == "about-us.html" or page.path == "enterprise.html" or page.path == "developers.html" or page.path == "how-it-works.html" %}
+						<li class="visible-sm dropdown active">
+						{% else %}
+						<li class="visible-sm dropdown">
+							{% endif %}
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="/how-it-works.html">How it works</a></li>
+								<li><a href="/enterprise.html">Enterprise</a></li>
+								<li><a href="/developers.html">Developers</a></li>
+								<li><a href="/about-us.html">About us</a></li>
+							</ul>
+						</li>
+						<li><a href="get-started.html" class="btn btn-default btn-lg"><span class="network-name">Get started</span></a></li>
+					</ul>
+				</div>
+				<!-- /.navbar-collapse -->
 			</div>
-			<!-- /.navbar-collapse -->
-		</div>
-		<!-- /.container -->
-	</nav>
+			<!-- /.container -->
+		</nav>
 
-	{{ content }}
+		{{ content }}
 
-	<footer class="footer">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-4 col-sm-2 col-sm-offset-3">
-					<h5>Developers</h5>
-					<ul class="list-unstyled">
-						<li><a href="developers.html">Overview</a></li>
-						<li><a href="http://developers.anyfetch.com/" target="_blank">Docs</a></li>
-						<li><a href="http://developers.anyfetch.com/endpoints/" target="_blank">Endpoints</a></li>
-						<li><a href="http://developers.anyfetch.com/guides/" target="_blank">Guides</a></li>
-					</ul>
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-4 col-sm-2 col-sm-offset-3">
+						<h5>Developers</h5>
+						<ul class="list-unstyled">
+							<li><a href="developers.html">Overview</a></li>
+							<li><a href="http://developers.anyfetch.com/" target="_blank">Docs</a></li>
+							<li><a href="http://developers.anyfetch.com/endpoints/" target="_blank">Endpoints</a></li>
+							<li><a href="http://developers.anyfetch.com/guides/" target="_blank">Guides</a></li>
+						</ul>
+					</div>
+					<div class="col-xs-4 col-sm-2">
+						<h5>Solution</h5>
+						<ul class="list-unstyled">
+							<li><a href="/">AnyFetch</a></li>
+							<li><a href="/use-cases.html">Use Cases</a></li>
+							<li><a href="/how-it-works.html">How it works</a></li>
+							<li><a href="/enterprise.html">Enterprise</a></li>
+						</ul>
+					</div>
+					<div class="col-xs-4col-sm-2">
+						<h5>Company</h5>
+						<ul class="list-unstyled">
+							<li><a href="/about-us.html">About Us</a></li>
+							<li><a href="/about-us.html#contact">Contact</a></li>
+							<li><a href="https://twitter.com/anyFetch" target="_blank">Twitter</a></li>
+						</ul>
+					</div>
 				</div>
-				<div class="col-xs-4 col-sm-2">
-					<h5>Solution</h5>
-					<ul class="list-unstyled">
-						<li><a href="/">AnyFetch</a></li>
-						<li><a href="/use-cases.html">Use Cases</a></li>
-						<li><a href="/how-it-works.html">How it works</a></li>
-						<li><a href="/enterprise.html">Enterprise</a></li>
-					</ul>
-				</div>
-				<div class="col-xs-4col-sm-2">
-					<h5>Company</h5>
-					<ul class="list-unstyled">
-						<li><a href="/about-us.html">About Us</a></li>
-						<li><a href="/about-us.html#contact">Contact</a></li>
-						<li><a href="https://twitter.com/anyFetch" target="_blank">Twitter</a></li>
-					</ul>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-12 text-center">
-					<p class="copyright text-muted small">&copy; AnyFetch 2014. All Rights Reserved</p>
+				<div class="row">
+					<div class="col-sm-12 text-center">
+						<p class="copyright text-muted small">&copy; AnyFetch 2014. All Rights Reserved</p>
+					</div>
 				</div>
 			</div>
 		</footer>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="scripts/bootstrap.min.js"></script>
     <script src="scripts/tools.js"></script>
 	</body>
-
-	</html>
+</html>
