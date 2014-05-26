@@ -1,0 +1,348 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Meta, title, CSS, favicons, etc. -->
+	<meta charset="utf-8">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+	<div class="bs-example bs-example-tabs">
+
+		<!-- tabs left -->
+		<div class="tabbable tabs-left">
+			<ul class="nav nav-tabs" id="myTab">
+				<li><a href="#all-any" data-toggle="tab"><span class="glyphicon glyphicon-user"></span></a></li>
+				<li><a href="#favorites-any" data-toggle="tab"><span class="glyphicon glyphicon-star"></span></a></li>
+				<li><a href="#providers" data-toggle="tab"><span class="glyphicon glyphicon-link"></span></a></li>
+				<li><a href="#search" data-toggle="tab"><span class="glyphicon glyphicon-search"></span></a></li>
+			</ul>
+			<div class="tab-content">
+				<div class="tab-pane fade" id="all-any">
+					<div class="header">
+						<h2>
+							<span class="glyphicon glyphicon-user"></span> John Smith
+						</h2>
+						<div class="input-group search-bar">
+							<input type="text" class="form-control" placeholder="Any file, any message attached to John Smith">
+							<span class="input-group-btn">
+								<button class="btn btn-default" type="button">Search</button>
+							</span>
+						</div><!-- /input-group -->
+					</div>
+					<div class="panel-group" id="accordion">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+										<span class="glyphicon glyphicon-star-empty"></span> <i class="fa fa-dropbox"></i> Document #1
+									</a>
+									<a href="" data-toggle="modal" data-target="#myModal">
+										<i class="fa fa-search-plus fa-right"></i>
+									</a>
+								</h4>
+							</div>
+							<div id="collapseOne" class="panel-collapse collapse">
+								<div class="panel-body">
+									Some more details about your doc.
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+										<span class="glyphicon glyphicon-star"></span> <i class="fa fa-file-text"></i> Document #2
+									</a>
+									<a href="" data-toggle="modal" data-target="#myModal">
+										<i class="fa fa-search-plus fa-right"></i>
+									</a>
+								</h4>
+							</div>
+							<div id="collapseTwo" class="panel-collapse collapse">
+								<div class="panel-body">
+									Some more details about your doc.
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+										<span class="glyphicon glyphicon-star-empty"></span> <i class="fa fa-dropbox"></i> Document #3
+									</a>
+									<a href="" data-toggle="modal" data-target="#myModal">
+										<i class="fa fa-search-plus fa-right"></i>
+									</a>
+								</h4>
+							</div>
+							<div id="collapseThree" class="panel-collapse collapse">
+								<div class="panel-body">
+									Some more details about your doc.
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+										<span class="glyphicon glyphicon-star-empty"></span> <i class="fa fa-dropbox"></i> Document #4
+									</a>
+									<a href="" data-toggle="modal" data-target="#myModal">
+										<i class="fa fa-search-plus fa-right"></i>
+									</a>
+								</h4>
+							</div>
+							<div id="collapseThree" class="panel-collapse collapse">
+								<div class="panel-body">
+									Some more details about your doc.
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+										<span class="glyphicon glyphicon-star"></span> <i class="fa fa-dropbox"></i> Document #5
+									</a>
+									<a href="" data-toggle="modal" data-target="#myModal">
+										<i class="fa fa-search-plus fa-right"></i>
+									</a>
+								</h4>
+							</div>
+							<div id="collapseThree" class="panel-collapse collapse">
+								<div class="panel-body">
+									Some more details about your doc.
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+										<span class="glyphicon glyphicon-star-empty"></span> <i class="fa fa-dropbox"></i> Document #6
+									</a>
+									<a href="" data-toggle="modal" data-target="#myModal">
+										<i class="fa fa-search-plus fa-right"></i>
+									</a>
+								</h4>
+							</div>
+							<div id="collapseThree" class="panel-collapse collapse">
+								<div class="panel-body">
+									Some more details about your doc.
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+										<span class="glyphicon glyphicon-star-empty"></span> <i class="fa fa-dropbox"></i> Document #7
+									</a>
+									<a href="" data-toggle="modal" data-target="#myModal">
+										<i class="fa fa-search-plus fa-right"></i>
+									</a>
+								</h4>
+							</div>
+							<div id="collapseThree" class="panel-collapse collapse">
+								<div class="panel-body">
+									Some more details about your doc.
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+										<span class="glyphicon glyphicon-star-empty"></span> <i class="fa fa-dropbox"></i> Document #8
+									</a>
+									<a href="" data-toggle="modal" data-target="#myModal">
+										<i class="fa fa-search-plus fa-right"></i>
+									</a>
+								</h4>
+							</div>
+							<div id="collapseThree" class="panel-collapse collapse">
+								<div class="panel-body">
+									Some more details about your doc.
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+										<span class="glyphicon glyphicon-star-empty"></span> <i class="fa fa-dropbox"></i> Document #9
+									</a>
+									<a href="" data-toggle="modal" data-target="#myModal">
+										<i class="fa fa-search-plus fa-right"></i>
+									</a>
+								</h4>
+							</div>
+							<div id="collapseThree" class="panel-collapse collapse">
+								<div class="panel-body">
+									Some more details about your doc.
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+										<span class="glyphicon glyphicon-star-empty"></span> <i class="fa fa-dropbox"></i> Document #10
+									</a>
+									<a href="" data-toggle="modal" data-target="#myModal">
+										<i class="fa fa-search-plus fa-right"></i>
+									</a>
+								</h4>
+							</div>
+							<div id="collapseThree" class="panel-collapse collapse">
+								<div class="panel-body">
+									Some more details about your doc.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane fade" id="favorites-any">
+					<div class="header">
+						<h2>
+							<span class="glyphicon glyphicon-star"></span> John Smith
+						</h2>
+						<div class="input-group search-bar">
+							<input type="text" class="form-control" placeholder="Any file, any message attached to John Smith">
+							<span class="input-group-btn">
+								<button class="btn btn-default" type="button">Search</button>
+							</span>
+						</div><!-- /input-group -->
+					</div>
+					<div class="panel-group" id="accordion">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion" href="#collapseEleven">
+										<span class="glyphicon glyphicon-star"></span> <i class="fa fa-file-text"></i> Document #2
+									</a>
+									<a href="" data-toggle="modal" data-target="#myModal">
+										<i class="fa fa-search-plus fa-right"></i>
+									</a>
+								</h4>
+							</div>
+							<div id="collapseEleven" class="panel-collapse collapse">
+								<div class="panel-body">
+									Some more details about your doc.
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwelve">
+										<span class="glyphicon glyphicon-star"></span> <i class="fa fa-dropbox"></i> Document #5
+									</a>
+									<a href="" data-toggle="modal" data-target="#myModal">
+										<i class="fa fa-search-plus fa-right"></i>
+									</a>
+								</h4>
+							</div>
+							<div id="collapseTwelve" class="panel-collapse collapse">
+								<div class="panel-body">
+									Some more details about your doc.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane fade" id="providers">
+					<div class="header">
+						<h2>
+							<span class="glyphicon glyphicon-link"></span> Connect new accounts
+						</h2>
+					</div>
+					<div class="row">
+						<div class="col-sm-6 col-md-3">
+							<div class="thumbnail">
+								<img src="http://placehold.it/300x200" alt="...">
+								<div class="caption">
+									<h3>Dropbox</h3>
+									<p>...</p>
+									<p><a href="#" class="btn btn-primary" role="button">Connect</a> <a href="#" class="btn btn-default" role="button">Info</a></p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-3">
+							<div class="thumbnail">
+								<img src="http://placehold.it/300x200" alt="...">
+								<div class="caption">
+									<h3>Gmail</h3>
+									<p>...</p>
+									<p><a href="#" class="btn btn-primary" role="button">Connect</a> <a href="#" class="btn btn-default" role="button">Info</a></p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-3">
+							<div class="thumbnail">
+								<img src="http://placehold.it/300x200" alt="...">
+								<div class="caption">
+									<h3>Evernote</h3>
+									<p>...</p>
+									<p><a href="#" class="btn btn-primary" role="button">Connect</a> <a href="#" class="btn btn-default" role="button">Info</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="tab-pane fade" id="search">
+					<div class="header">
+						<h2>
+							<span class="glyphicon glyphicon-search"></span> Cross account search
+						</h2>
+					</div>
+					<div class="input-group">
+						<input type="text" class="form-control" placeholder="Any file, any message, anywhere">
+						<span class="input-group-btn">
+							<button class="btn btn-default" type="button">Search</button>
+						</span>
+					</div><!-- /input-group -->
+				</div>
+			</div>
+		</div>
+		<!-- /tabs -->
+
+	</div>
+
+
+
+	<!-- Modal -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title" id="myModalLabel">Viewer</h4>
+				</div>
+				<div class="modal-body">
+					View your document here
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Open in application</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+	<script type="text/javascript">
+		$('#myTab a[href="#all-any"]').tab('show') // Select tab by name
+	</script>
+</body>
+</html>

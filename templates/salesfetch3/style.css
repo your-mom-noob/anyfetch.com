@@ -4,7 +4,7 @@
 	height: 470px;
 	border: 1px solid #999;
 	border-radius: 5px;
-	margin: 100px;
+	margin: 200px;
 }
 
 h2 {
@@ -15,13 +15,17 @@ h2 {
 	float: right;
 }
 
-.doc-list {
+.panel-group {
 	height: 340px;
 	overflow: scroll;
 	padding-bottom: 20px;
 }
 
-.tab-pane.menu {
+.tab-pane>p {
+	margin-top: -20px;
+}
+
+.tab-pane {
 	padding: 20px 20px 20px 90px;
 }
 
@@ -47,11 +51,9 @@ h2 {
 }
 
 .search-bar {
+	margin-right: 300px;
 }
 
-.nav-doc {
-  width: 100%;
-}
 
 
 /*------------------------------------------------------------*/
@@ -111,7 +113,7 @@ h2 {
   margin-bottom: 3px;
 }
 
-.tabs-left > .nav-tabs:not(.nav-doc) {
+.tabs-left > .nav-tabs {
   float: left;
   margin-right: 19px;
   border-right: 1px solid #ddd;
@@ -161,4 +163,3 @@ h2 {
   border-color: #ddd #ddd #ddd transparent;
   *border-left-color: #ffffff;
 }
-
