@@ -1,0 +1,5 @@
+# Allow all
+User-agent:  *
+Disallow:
+
+Sitemap: http://anyfetch.com/sitemap.xml
