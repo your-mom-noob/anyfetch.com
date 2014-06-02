@@ -515,6 +515,17 @@ a.list-group-item:hover {
 						Landing - Window animation
 --------------------------------------------------------------- */
 
+/* Window */
+.window {
+	margin: 20px 0 0 0;
+	position: relative;
+	/*box-shadow: 0px 0px 3px #777;*/
+}
+
+.window .frames .frame img {
+	width: 100%;
+}
+
 /* Animations */
 
 .frames {
@@ -529,29 +540,22 @@ a.list-group-item:hover {
 	top: 0;
 }
 
-/* Window */
-
-.window {
-	margin: 20px 0 0 0;
-	position: relative;
-	box-shadow: 0px 0px 3px #777;
-}
-
-.window .frames .frame img {
-	width: 100%;
-}
-
-.window .frames .frame:nth-child(1) {
+.frames .frame:nth-child(1) {
 	-webkit-animation: first 8s infinite;
 	-moz-animation: first 8s infinite;
 }
 
-.window .frames .frame:nth-child(2) {
+.frames .frame:nth-child(2) {
 	-webkit-animation: second 8s infinite;
 	-moz-animation: second 8s infinite;
 }
 
-.window .frames .frame:nth-child(3) {
+.frames .frame:nth-child(3) {
+	-webkit-animation: third 8s infinite;
+	-moz-animation: third 8s infinite;
+}
+
+.frames .frame:nth-child(4) {
 	-webkit-animation: third 8s infinite;
 	-moz-animation: third 8s infinite;
 }
@@ -617,79 +621,3 @@ a.list-group-item:hover {
 	95% { opacity: 1; }
 	100% { opacity: 0; }
 }
-
-
-/* Animation */
-
-.animation {
-	margin: 20px 0 0 0;
-	position: relative;
-}
-
-.animation .frames .frame img {
-	width: 100%;
-}
-
-.animation .frames .frame:nth-child(1) {
-	-webkit-animation: anim1 15s infinite;
-	-moz-animation: anim1 15s infinite;
-}
-
-.animation .frames .frame:nth-child(2) {
-	-webkit-animation: anim2 15s infinite;
-	-moz-animation: anim2 15s infinite;
-}
-
-.animation .frames .frame:nth-child(3) {
-	-webkit-animation: anim3 15s infinite;
-	-moz-animation: anim3 15s infinite;
-}
-
-.animation .frames .frame:nth-child(4) {
-	-webkit-animation: anim4 15s infinite;
-	-moz-animation: anim4 15s infinite;
-}
-
-/* Chrome, Safari, Opera */
-@-webkit-keyframes anim1
-{
-	0% { opacity: 1; }
-	20% {opacity: 1;}
-	25% { opacity: 0; }
-	95% { opacity: 0; }
-	96% { opacity: 1; }
-	100% { opacity: 1; }
-}
-
-/* Chrome, Safari, Opera */
-@-webkit-keyframes anim2
-{
-	0% { opacity: 0; }
-	20% {opacity: 0;}
-	21% { opacity: 1; }
-	45% { opacity: 1; }
-	50% { opacity: 0; }
-	100% { opacity: 0; }
-}
-
-/* Chrome, Safari, Opera */
-@-webkit-keyframes anim3
-{
-	0% { opacity: 0; }
-	45% {opacity: 0;}
-	46% { opacity: 1; }
-	70% { opacity: 1; }
-	75% { opacity: 0; }
-	100% { opacity: 0; }
-}
-
-/* Chrome, Safari, Opera */
-@-webkit-keyframes anim4
-{
-	0% { opacity: 0; }
-	70% {opacity: 0;}
-	71% { opacity: 1; }
-	95% { opacity: 1; }
-	100% { opacity: 0; }
-}
-
