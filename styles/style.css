@@ -160,14 +160,14 @@ a {
 }
 
 .intro-header {
-	padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+	padding-top: 15px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
 	padding-bottom: 50px;
 	margin-top: 50px;
 	color: #f8f8f8;
 	background: url(../images/anyfetch_icon_raw.svg) no-repeat bottom right, url(../images/banner.svg) no-repeat center center;
 	background-size: 20%, cover;
 	text-align: center;
-	height: 470px;
+	height: 400px;
 }
 
 .intro-header.min {
@@ -697,5 +697,18 @@ a.list-group-item:hover {
 .carousel .active.left {left:0;opacity:0;z-index:2;}
 .carousel .next {left:0;opacity:1;z-index:1;}
 .carousel-indicators {
-	bottom: -40px;
+	top: -40px;
+}
+
+.carousel-indicators li {
+	border-color: #00A7E4;
+}
+
+.carousel-indicators .active {
+	background-color: #00A7E4;
+}
+
+.carousel-inner>.item>img {
+	max-width: 80%;
+	margin: auto;
 }
