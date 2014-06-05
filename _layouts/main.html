@@ -60,57 +60,22 @@
 					{% else %}
 					<li><a href="./" class="navbar-title">Home</a></li>
 					{% endif %}
-					{% if page.path == "use-cases.html" %}
-					<li class="active"><a href="use-cases.html" class="navbar-title">Use cases</a></li>
+					{% if page.path == "use.html" %}
+					<li class="active"><a href="use.html" class="navbar-title">Use</a></li>
 					{% else %}
-					<li><a href="use-cases.html" class="navbar-title">Use cases</a></li>
+					<li><a href="use.html" class="navbar-title">Use</a></li>
 					{% endif %}
-					{% if page.path == "how-it-works.html" %}
-					<li class="hidden-sm active"><a href="how-it-works.html" class="navbar-title">How it works</a></li>
+					{% if page.path == "integrate.html" %}
+					<li class="hidden-s active"><a href="integrate.html" class="navbar-title">Integrate</a></li>
 					{% else %}
-					<li class="hidden-sm"><a href="how-it-works.html" class="navbar-title">How it works</a></li>
+					<li class="hidden-s"><a href="integrate.html" class="navbar-title">Integrate</a></li>
 					{% endif %}
-					{% if page.path == "enterprise.html" %}
-					<li class="visible-lg active"><a href="enterprise.html" class="navbar-title">Enterprise</a></li>
+					{% if page.path == "develop.html" %}
+					<li class="hidden-s active"><a href="develop.html" class="navbar-title">Develop</a></li>
 					{% else %}
-					<li class="visible-lg"><a href="enterprise.html" class="navbar-title">Enterprise</a></li>
+					<li class="hidden-s"><a href="develop.html" class="navbar-title">Develop</a></li>
 					{% endif %}
-					{% if page.path == "developers.html" %}
-					<li class="visible-lg active"><a href="developers.html" class="navbar-title">Developers</a></li>
-					{% else %}
-					<li class="visible-lg"><a href="developers.html" class="navbar-title">Developers</a></li>
-					{% endif %}
-					{% if page.path == "about-us.html" %}
-					<li class="visible-lg active"><a href="about-us.html" class="navbar-title">About us</a></li>
-					{% else %}
-					<li class="visible-lg"><a href="about-us.html" class="navbar-title">About us</a></li>
-					{% endif %}
-					{% if page.path == "about-us.html" or page.path == "enterprise.html" or page.path == "developers.html" %}
-					<li class="visible-md dropdown active">
-						{% else %}
-						<li class="visible-md dropdown">
-							{% endif %}
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
-							<ul class="dropdown-menu">
-								<li><a href="/enterprise.html">Enterprise</a></li>
-								<li><a href="/developers.html">Developers</a></li>
-								<li><a href="/about-us.html">About us</a></li>
-							</ul>
-						</li>
-						{% if page.path == "about-us.html" or page.path == "enterprise.html" or page.path == "developers.html" or page.path == "how-it-works.html" %}
-						<li class="visible-sm dropdown active">
-						{% else %}
-						<li class="visible-sm dropdown">
-							{% endif %}
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
-							<ul class="dropdown-menu">
-								<li><a href="/how-it-works.html">How it works</a></li>
-								<li><a href="/enterprise.html">Enterprise</a></li>
-								<li><a href="/developers.html">Developers</a></li>
-								<li><a href="/about-us.html">About us</a></li>
-							</ul>
-						</li>
-						<li><a href="get-started.html" class="btn btn-default btn-lg"><span class="network-name">Get started</span></a></li>
+					<li><a href="get-started.html" class="btn btn-default btn-lg"><span class="network-name">Get started</span></a></li>
 					</ul>
 				</div>
 				<!-- /.navbar-collapse -->
