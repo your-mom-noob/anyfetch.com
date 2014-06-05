@@ -62,6 +62,11 @@ a {
 	border-color: #F98D33;
 }
 
+.intro-svg {
+	height: 100px;
+	max-width: 100px;
+}
+
 .center {
 	text-align: center;
 }

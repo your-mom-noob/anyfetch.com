@@ -33,60 +33,72 @@ layout: main
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
-				<div class="animation">
-					<div class="frames" id="frames">
-						<div class="frame">
-							<img width="100%" src="../images/anyfetch-1.jpg" />
+				<div id="carousel-example-generic" class="carousel slide carousel-fade" data-ride="carousel">
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+						<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+					</ol>
+
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner">
+						<div class="item active">
+							<img width="100%" src="../images/anyfetch-1.png" />
 						</div>
-						<div class="frame">
-							<img width="100%" src="../images/anyfetch-2.jpg" />
+						<div class="item">
+							<img width="100%" src="../images/anyfetch-2.png" />
 						</div>
-						<div class="frame">
-							<img width="100%" src="../images/anyfetch-3.jpg" />
+						<div class="item">
+							<img width="100%" src="../images/anyfetch-3.png" />
 						</div>
-						<div class="frame">
-							<img width="100%" src="../images/anyfetch-4.jpg" />
+						<div class="item">
+							<img width="100%" src="../images/anyfetch-4.png" />
 						</div>
 					</div>
-					<img width="100%" src="../images/anyfetch-1.jpg" />
 				</div>
 			</div>
 		</div>
 	</div>
+
 	<div>
-	<!-- <h2>See how they use it<a href="use-cases.html" class="btn btn-default btn-lg inline-button"><i class="fa fa-github fa-fw"></i> <span class="network-name">Use cases</span></a></h2> -->
+		<!-- <h2>See how they use it<a href="use-cases.html" class="btn btn-default btn-lg inline-button"><i class="fa fa-github fa-fw"></i> <span class="network-name">Use cases</span></a></h2> -->
 	</div>
 </div>
 
 <div class="content-section-b row browser">
 
 	<div class="container">
-		<div class="col-sm-6 col-md-4">
+		<div class="col-sm-4 col-md-4">
 			<div class="thumbnail-project">
-				<img src="images/connections.svg" alt="Connect any data source">
+				<img class="intro-svg" src="images/connections.svg" alt="Connect any data source">
 				<div class="caption">
-					<h2>Connect any data source</h2>
-					<p class="lead">Whether local or in the cloud, we provide open-source connectors to 20+ services. It only takes a few minutes to create your own!</p>
+					<br />
+					<p class="lead">Out-of-the box solutions; up in minutes.</p><br />
+					<a href="use-cases.html" class="btn btn-default btn-lg"><span class="network-name">Use</span></a>
 				</div>
 			</div>
 		</div>
 
-		<div class="col-sm-6 col-md-4">
+		<div class="col-sm-4 col-md-4">
 			<div class="thumbnail-project">
-				<img src="images/customize.svg" alt="Customize your business context">
+				<img class="intro-svg" src="images/customize.svg" alt="Customize your business context">
 				<div class="caption">
-					<h2>Customize your business context</h2>
-					<p class="lead">Customize AnyFetch to your context and instantly get relevant data from your existing tools.</p>
+				<br />
+					<p class="lead">Lightweight, customizable and economic solution.</p>
+					<a href="integrate.html" class="btn btn-default btn-lg"><span class="network-name">Integrate</span></a>
 				</div>
 			</div>
 		</div>
 
-		<div class="col-sm-6 col-md-4">
+		<div class="col-sm-4 col-md-4">
 			<div class="thumbnail-project">
-				<img src="images/timer.svg" alt="Deliver faster">
+				<img class="intro-svg" src="images/code.svg" alt="Deliver faster">
 				<div class="caption">
-					<h2>Deliver faster</h2>
-					<p class="lead">The whole setup takes less than a few hours, that's about 100&times; less than enterprise search.</p>
+				<br />
+					<p class="lead">Develop with AnyFetch.</p><br />
+					<a href="developers.html" class="btn btn-default btn-lg"><span class="network-name">Develop</span></a>
 				</div>
 			</div>
 		</div>
