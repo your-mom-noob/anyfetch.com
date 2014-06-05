@@ -61,20 +61,38 @@
 					<li><a href="./" class="navbar-title">Home</a></li>
 					{% endif %}
 					{% if page.path == "use.html" %}
-					<li class="active"><a href="use.html" class="navbar-title">Use</a></li>
+					<li class="hidden-sm active"><a href="./use.html" class="navbar-title">Use</a></li>
 					{% else %}
-					<li><a href="use.html" class="navbar-title">Use</a></li>
+					<li class="hidden-sm"><a href="./use.html" class="navbar-title">Use</a></li>
 					{% endif %}
 					{% if page.path == "integrate.html" %}
-					<li class="hidden-s active"><a href="integrate.html" class="navbar-title">Integrate</a></li>
+					<li class="hidden-sm active"><a href="./integrate.html" class="navbar-title">Integrate</a></li>
 					{% else %}
-					<li class="hidden-s"><a href="integrate.html" class="navbar-title">Integrate</a></li>
+					<li class="hidden-sm"><a href="./integrate.html" class="navbar-title">Integrate</a></li>
 					{% endif %}
 					{% if page.path == "develop.html" %}
-					<li class="hidden-s active"><a href="develop.html" class="navbar-title">Develop</a></li>
+					<li class="hidden-sm active"><a href="./develop.html" class="navbar-title">Develop</a></li>
 					{% else %}
-					<li class="hidden-s"><a href="develop.html" class="navbar-title">Develop</a></li>
+					<li class="hidden-sm"><a href="./develop.html" class="navbar-title">Develop</a></li>
 					{% endif %}
+					{% if page.path == "about-us.html" %}
+					<li class="hidden-sm active"><a href="./about-us.html" class="navbar-title">About us</a></li>
+					{% else %}
+					<li class="hidden-sm"><a href="./about-us.html" class="navbar-title">About us</a></li>
+					{% endif %}
+					{% if page.path == "use.html" or page.path == "integrate.html" or page.path == "develop.html" or page.path == "about-us.html" %}
+					<li class="visible-sm dropdown active">
+					{% else %}
+					<li class="visible-sm dropdown">
+					{% endif %}
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Menu <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="./use.html">Use</a></li>
+							<li><a href="./integrate.html">Integrate</a></li>
+							<li><a href="./develop.html">Develop</a></li>
+							<li><a href="./about-us.html">About us</a></li>
+						</ul>
+					</li>
 					<li><a href="get-started.html" class="btn btn-default btn-lg"><span class="network-name">Get started</span></a></li>
 					</ul>
 				</div>
