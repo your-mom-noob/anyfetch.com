@@ -169,6 +169,7 @@ a {
 	padding-bottom: 50px;
 	margin-top: 50px;
 	color: #f8f8f8;
+	background-color: #14A8E1;
 	background: url(../images/svg/anyfetch_icon_raw.svg) no-repeat bottom right, url(../images/svg/banner.svg) no-repeat center center;
 	background-size: 20%, cover;
 	text-align: center;
