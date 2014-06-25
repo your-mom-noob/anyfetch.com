@@ -151,7 +151,7 @@ a {
 }
 
 .use-case-thumbnail > img {
-	max-width: 200px;
+	max-width: 100%;
 }
 
 .thumbnail-developers {
@@ -514,6 +514,10 @@ a.list-group-item:hover {
 .alert {
 	/*visibility: hidden;*/
 	display: none;
+}
+
+.use-case {
+	margin-bottom: 50px;
 }
 
 /* ---------------------------------------------------------------
